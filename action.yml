@@ -20,3 +20,4 @@ runs:
     - run: ${{ github.action_path }}/goodbye.sh
       shell: bash
     - run: write-good *.md
+      shell: bash
